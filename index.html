@@ -6,16 +6,41 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <h1>Caesar Cipher</h1>
- <div>
-   <label><textarea type="text" id="plainInput" placeholder="Type in plain text"></textarea></label> 
+  <header>
+    <div class="header">
+      <article>
+        <h1>
+          Criptografia do imperador
+        </h1>
+      </article>
+    </div>
+  </header>
+  <main class="one">   
+  <div> 
+    <article> 
+      <h1 class="titulo">Caesar Cipher</h1>
+    </article>
+</div>
+ <div class="escopo">
+   <label><textarea type="text" id="plainInput" placeholder="Digite seu texto aqui"></textarea></label> 
     <button id="encrypt-btn">criptografar</button>
-    <button id="copyToClipBoard">Copy Text</button>
+    <button id="copyToClipBoard">Copiar texto</button>
     <input type="number" id="shiftInput" min="0" max="2">
     <br>
     <label>
       <textarea type="text" id="encryptedInput-1" placeholder="Texto encriptado irá aparecer aqui..."></textarea>
     </label>
+  </main>
+    <footer class="ft">
+      <div>
+        <article>
+          <h3>
+            Feito com muito ❤ para você!
+          </h3>
+        </article>
+      </div>
+    </footer>
 <script src="./index.js"></script>
+<script src="./base_index.js"></script>
 </body>
 </html>

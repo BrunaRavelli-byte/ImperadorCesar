@@ -30,3 +30,4 @@ function copyText(){
 }
 copyBnt.addEventListener('click', copyText)
 encryptBtn.addEventListener('click', encrypt)
+

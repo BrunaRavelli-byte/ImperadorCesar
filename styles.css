@@ -1,13 +1,126 @@
-body {
-
-    background-size: 78em;
-    color: #fff201;
+.main{
+    background-image: url('./img/SL-103020-37400-12.jpg');
 }
-.form {
+.cabeçalho, .header, .titulo, .imperador{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #00406c;
+    color: #fdc500;
+}
+.principal{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
     align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: #fdc500;
+    background-image: url('./img/SL-103020-37400-12.jpg');
+}
+.h1{
+    padding-left: 43px;
+    color: #fdc500;
+}
+.paragrafo{
+    height: 125px;
+    width: 668px;
+    color: #fdc500;
+}
+.paragrafo_2{
+    height: 141px;
+    width: 677px
+    padding-left: 132px;
+    color: #fdc500;
+}
+.base{
+    height: 124px;
+    padding-left: 55px;
+    color: #fdc500;
+    margin-top: -52px;
+}
+.escolha, .cesar{
+    padding-top: 38px;
+    padding-bottom: 38px;
+    color: #fdc500;
+    border-radius: 48px;
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #00406c;
+    color: #fdc500;
+}
+.botao_1, .botao_base{
+     border-radius: 48px;
+    height: 58px;
+
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: #fdc500;
+    background-image: url('./img/1000_F_261686412_egrd7jRfpxlWP5LpnMQBO8rkn6EUotOI.jpg');
+}
+.escopo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#encrypt-btn, #copyToClipBoard{
+    margin-top: 23px;
+    margin-bottom: 26px;
+    border-radius: 65px;
+}
+.ft{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #00406c;
+    color: #fdc500;
+}
+#encryptedInput-1{
+    width: 499px;
+    height: 189px;
+}
+.sessenta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fdc500;
+}
+.encriptacao{
+    width: 707px;
+    height: 57px;
+
+}
+.botoes_1, .botoes_2{
+    margin-top: 26px;
+    margin-bottom: 26px;
+    border-radius: 48px;
+}
+.corpo{
+    background-color: #00b4d8;
+}
+.atencao{
+    height: 141px;
+    width: 677px padding-left: 132px;
+    color: #03045e;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     align-items: center;
 }
