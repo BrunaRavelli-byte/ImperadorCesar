@@ -129,3 +129,14 @@
 .iniciation{
     margin-left: 540px;
 }
+
+@media (max-width: 769px){
+    body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
