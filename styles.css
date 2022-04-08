@@ -58,6 +58,7 @@
 .botao_1, .botao_base{
      border-radius: 48px;
     height: 58px;
+    
 
 }
 .one{
@@ -116,7 +117,7 @@
 }
 .atencao{
     height: 141px;
-    width: 677px padding-left: 132px;
+    width: 677px padding-left= 132px;
     color: #03045e;
     display: flex;
     flex-direction: row;
@@ -124,4 +125,7 @@
     align-content: center;
     justify-content: center;
     align-items: center;
+};
+.iniciation{
+    margin-left: 540px;
 }
